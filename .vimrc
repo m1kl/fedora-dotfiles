@@ -1,6 +1,6 @@
-" Use the Solarized Dark theme
+" Use the Duo duo theme
 set background=dark
-colorscheme solarized
+colorscheme duoduo
 let g:solarized_termtrans=1
 
 " Make Vim more useful
