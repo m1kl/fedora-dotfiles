@@ -1,6 +1,6 @@
 # My fedora dotfiles based on Mathias’s dotfiles
 
-![Screenshot of my shell prompt](https://imgur.com/a/SJPro)
+![Screenshot of my shell prompt](https://i.imgur.com/snDZNUG.png)
 
 ## Installation
 
