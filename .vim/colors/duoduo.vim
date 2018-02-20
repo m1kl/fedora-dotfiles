@@ -1,4 +1,4 @@
-" Vim color file - duoduo
+" Vim color file - solarized
 " Maintainer:	Yggdroot <archofortune@gmail.com>
 
 if version > 580
@@ -10,7 +10,7 @@ endif
 
 set background=dark
 set t_Co=256
-let g:colors_name = "duoduo"
+let g:colors_name = "solarized"
 
 highlight Normal guisp=#292929 guifg=#f2f2f2 guibg=#292929 gui=NONE ctermfg=255 ctermbg=235 cterm=NONE
 

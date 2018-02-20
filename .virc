@@ -1,6 +1,6 @@
 " Use the Duo duo theme
 set background=dark
-colorscheme duoduo
+colorscheme solarized
 let g:solarized_termtrans=1
 
 " Make Vim more useful
@@ -25,8 +25,8 @@ let mapleader=","
 set binary
 set noeol
 " Centralize backups, swapfiles and undo history
-set backupdir=~/.vim/backups
-set directory=~/.vim/swaps
+" set backupdir=~/.vim/backups
+" set directory=~/.vim/swaps
 if exists("&undodir")
 	set undodir=~/.vim/undo
 endif
@@ -38,8 +38,8 @@ set backupskip=/tmp/*,/private/tmp/*
 set modeline
 set modelines=4
 " Enable per-directory .vimrc files and disable unsafe commands in them
-set exrc
-set secure
+" set exrc
+" set secure
 " Enable line numbers
 set number
 " Enable syntax highlighting
@@ -89,9 +89,9 @@ function! StripWhitespace()
 	call setpos('.', save_cursor)
 	call setreg('/', old_query)
 endfunction
-noremap <leader>ss :call StripWhitespace()<CR>
+" noremap <leader>ss :call StripWhitespace()<CR>
 " Save a file as root (,W)
-noremap <leader>W :w !sudo tee % > /dev/null<CR>
+" noremap <leader>W :w !sudo tee % > /dev/null<CR>
 
 " Automatic commands
 if has("autocmd")
